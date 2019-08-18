@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Test</title>
+    <link rel="stylesheet/less" type="text/css" href="style.less" />
+    <script
+      defet
+      src="https://unpkg.com/@babel/standalone/babel.min.js"
+    ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+    <script defer type="text/babel" src="./observer.js"></script>
+    <script defer type="text/babel" src="./customDropdown.js"></script>
+    <script defer type="text/babel" src="./script.js"></script>
+  </head>
+  <body>
+    <div>
+      <select class="dropdown" data-placeholder="Кошки и собаки">
+        <option
+          data-type="iframe"
+          data-meta="КОТЫ 2019 Смешные коты и котики, приколы с котов до слез – Смешные кошки – Funny Cats"
+          data-src="https://www.youtube.com/embed/sn-S82mF_gw"
+          data-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          data-allowfullscreen="true"
+        >
+          КОТЫ 2019 Смешные коты и котики, приколы с котов до слез – Смешные
+          кошки – Funny Cats
+        </option>
+        <option
+          data-type="iframe"
+          data-meta="Смешные коты и котики 2019, приколы про котов до слез – Смешные кошки – Funny Cats 2019"
+          data-src="https://www.youtube.com/embed/kwcv4FHoCmI"
+          data-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          data-allowfullscreen="true"
+        >
+          Смешные коты и котики 2019, приколы про котов до слез – Смешные кошки
+          – Funny Cats 2019
+        </option>
+        <option
+          data-type="iframe"
+          data-meta="Смешные собаки 2018 Приколы с Собаками ТОПовая подборка Funny Dogs Compilation 2018 #1"
+          data-src="https://www.youtube.com/embed/qF54wjdHGg8"
+          data-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          data-allowfullscreen="true"
+        >
+          Смешные собаки 2018 Приколы с Собаками ТОПовая подборка Funny Dogs
+          Compilation 2018 #1
+        </option>
+        <option
+          data-type="iframe"
+          data-meta="САМЫЕ УМНЫЕ И ДОБРЫЕ СОБАКИ"
+          data-src="https://www.youtube.com/embed/nLTTa0ToTU8"
+          data-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          data-allowfullscreen="true"
+        >
+          САМЫЕ УМНЫЕ И ДОБРЫЕ СОБАКИ
+        </option>
+        <option
+          data-type="image"
+          data-meta="Танцующие котики"
+          data-src="https://i.pinimg.com/564x/5d/e8/4c/5de84c68671d469df72441ea520ef183.jpg"
+        >
+          Танцующие котики</option
+        >
+        <option
+          data-type="image"
+          data-meta="Просто котики на стеклянных столах"
+          data-src="https://i.pinimg.com/564x/5b/7e/ea/5b7eea71bfc4a4671a84e6f3db6b8c74.jpg"
+        >
+          Просто котики на стеклянных столах</option
+        >
+        <option
+          data-type="image"
+          data-meta="Кошки и собаки, которые заставят вас отвлечься от всех проблем"
+          data-src="https://i.pinimg.com/564x/54/f3/0e/54f30e6ed253fde1352a715d85f8bd5a.jpg"
+        >
+          Кошки и собаки, которые заставят вас отвлечься от всех проблем</option
+        >
+        <option
+          data-type="image"
+          data-meta="Собаки - это моя жизнь"
+          data-src="https://i.pinimg.com/564x/c2/35/25/c23525aa054a3d606aa1dc9e992e9d5b.jpg"
+        >
+          Собаки - это моя жизнь</option
+        >
+        <option
+          data-type="audio"
+          data-meta="Кот мяукает"
+          data-src="https://sound-pack.net/download/Sound_05517.mp3"
+        >
+          Кот мяукает</option
+        >
+        <option
+          data-type="audio"
+          data-meta="Одиночный лай маленькой собачки"
+          data-src="https://sound-pack.net/download/Sound_16378.mp3"
+        >
+          Одиночный лай маленькой собачки</option
+        >
+        <option
+          data-type="list"
+          data-meta="Самые популярные породы кошек"
+          data-listitem:1="Экзотическая кошка"
+          data-listitem:2="Персидская кошка"
+          data-listitem:3="Мейн-кун"
+          data-listitem:4="Рэгдолл"
+          data-listitem:5="Британская короткошёрстная кошка"
+        >
+          <div>
+            Самые популярные породы кошек
+          </div>
+        </option>
+        <option
+          data-type="list"
+          data-meta="Самые популярные породы собак"
+          data-listitem:1="Йоркширские терьеры"
+          data-listitem:2="Чихуахуа"
+          data-listitem:3="Немецкая овчарка"
+          data-listitem:4="Мопс"
+          data-listitem:5="Такса"
+        >
+          <div>
+            Самые популярные породы собак
+          </div>
+        </option>
+      </select>
+    </div>
+  </body>
+</html>
